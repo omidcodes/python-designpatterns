@@ -50,4 +50,4 @@ ch.subscribe(u3)
 
 ch.unsubscribe(u2)  # optional (unsubscribe)
 
-ch.upload_video(video_name="Interstellar")
+ch.upload_video(video_name="https://youtube.com/samplevideo")
