@@ -24,6 +24,7 @@ Below is a quick summary of each pattern, with a super-easy definition and its c
 |-----------|--------------------------------------------------------------------------------------------------------|-------------|
 | Singleton | Ensures there is only one instance of a class and gives a single, global access point to it.           | Creational  |
 | Factory   | Offers a simple way to create objects without knowing the exact class; you just ask the factory to build it. | Creational  |
+| AbstractFactory   | Provides an interface for creating families of related objects without specifying their concrete classes. | Creational  |
 | Builder   | Separates building a complex object from its parts so you can use the same steps to create different representations. | Creational  |
 | Adapter   | Converts one interface into another so that two incompatible interfaces can work together.             | Structural  |
 | Facade    | Provides a single, simple interface to a larger body of code (a complex subsystem), hiding all the messy details. | Structural  |
